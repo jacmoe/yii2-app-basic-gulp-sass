@@ -6,7 +6,7 @@ require('es6-promise').polyfill();
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    minifycss = require('gulp-minify-css'),
+    cssnano = require('gulp-cssnano'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
@@ -39,7 +39,7 @@ gulp.task('styles', function() {
     .pipe(sourcemaps.write('.', { sourceRoot: '../../scss/' }))
     .pipe(gulp.dest('web/css'))
     .pipe(gulpif('*.css', rename({ suffix: '.min' })))
-    .pipe(gulpif('*.css', minifycss()))
+    .pipe(gulpif('*.css', cssnano()))
     .pipe(gulpif('*.css', gulp.dest('web/css')))
     .pipe(gulpif('*.css', notify({ message: 'Styles task complete' })));
 });
@@ -71,10 +71,7 @@ gulp.task('images', function() {
 gulp.task('fonts', function() {
   return gulp.src(
     [   'vendor/bower/bootstrap-sass/assets/fonts/bootstrap/*',
-        'vendor/bower/font-awesome/fonts/*',
-        'scss/2-vendors/ptsans-bold/fonts/*',
-        'scss/2-vendors/ptsans-regular/fonts/*',
-        'scss/2-vendors/sourcecodepro/fonts/*'
+        'vendor/bower/font-awesome/fonts/*'
     ])
     .pipe(gulp.dest('./web/fonts'));
 });
@@ -94,7 +91,7 @@ gulp.task('watch', function() {
 
   // Initialize Browsersync
   browsersync.init({
-    proxy: "http://local.yiiframework.com"
+    proxy: "http://foundationtest.dev"
   });
 
   // Watch .scss files
