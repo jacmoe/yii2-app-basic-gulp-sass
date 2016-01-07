@@ -1,5 +1,5 @@
 {
-  "name": "jacmoe/yii2-app-basic",
+  "name": "yii2-app-basic-sass-gulp",
   "version": "1.0.0",
   "description": "Basic Yii2 application with Gulp and Sass support",
   "main": "Gulpfile.js",
