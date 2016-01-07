@@ -23,9 +23,7 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "yii\\composer\\Installer::postCreateProject",
-            "npm install",
-            "gulp build"
+            "yii\\composer\\Installer::postCreateProject"
         ]
     },
     "extra": {
