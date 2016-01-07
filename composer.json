@@ -1,17 +1,9 @@
 {
     "name": "jacmoe/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "description": "Yii 2 Basic Project Template with Gulp and Sass support",
+    "keywords": ["yii2", "framework", "basic", "project template", "sass", "gulp"],
     "type": "project",
-    "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
-    },
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
@@ -30,7 +22,9 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "yii\\composer\\Installer::postCreateProject"
+            "yii\\composer\\Installer::postCreateProject",
+            "npm install",
+            "gulp build"
         ]
     },
     "extra": {
