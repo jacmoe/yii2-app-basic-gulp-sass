@@ -5,53 +5,22 @@
 // --------------------------------------------------
 
 
-// HOW TO USE THIS FILE:
-//
-// Search and find a setting that you want to override
-// copy it and paste it at the top
-// and then customize it.
-// Be sure to leave the original untouched where it is.
-//
-// That way, we always know what the original value looked like.
-// And it will be easier to spot what we have changed (and what we haven't.)
-
-
-
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$gray-base:              #000;
-$gray-darker:            lighten($gray-base, 13.5%); // #222
-$gray-dark:              lighten($gray-base, 20%);   // #333
-$gray:                   lighten($gray-base, 33.5%); // #555
-$gray-light:             lighten($gray-base, 46.7%); // #777
-$gray-lighter:           lighten($gray-base, 93.5%); // #eee
+// $gray-base:              #000;
+// $gray-darker:            lighten($gray-base, 13.5%); // #222
+// $gray-dark:              lighten($gray-base, 20%);   // #333
+// $gray:                   lighten($gray-base, 33.5%); // #555
+// $gray-light:             lighten($gray-base, 46.7%); // #777
+// $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
 // $brand-primary:         darken(#428bca, 6.5%); // #337ab7
 // $brand-success:         #5cb85c;
+// $brand-info:            #5bc0de;
 // $brand-warning:         #f0ad4e;
-$brand-primary:         $eshill-blue;//$yii-blue;
-$brand-success:         $yii-green;
-$brand-warning:         $yii-yellow;
-// $brand-info:            #5bc0de
-// $brand-danger:          #d9534f
-
-
-$state-success-text:             $yii-green;
-$state-info-text:                $yii-blue;
-$state-warning-text:             $yii-yellow;
-
-
-$font-family-sans-serif: 'pt_sansregular', sans-serif;
-$font-family-base: $font-family-sans-serif;
-$font-family-monospace:   'source_code_proregular', monospace;
-
-$bold-headings-font-family: 'pt_sansbold', sans-serif;
-//$headings-color: $gray;
-
-$icon-font-path: "/fonts/";
-$font-size-base: 16px;
+// $brand-danger:          #d9534f;
 
 
 //== Scaffolding
@@ -59,49 +28,17 @@ $font-size-base: 16px;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff;
-//$body-bg:               darken(#FEFEFE, 5%);
+// $body-bg:               #fff;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark;
+// $text-color:            $gray-dark;
 
 //** Global textual link color.
-$link-color:            $brand-primary;
+// $link-color:            $brand-primary;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%);
+// $link-hover-color:      darken($link-color, 15%);
 //** Link hover decoration.
-$link-hover-decoration: underline;
+// $link-hover-decoration: underline;
 
-
-$navbar-height: 80px;
-$navbar-inverse-link-active-bg:             transparent;
-$navbar-inverse-border:                     transparent;
-$navbar-border-radius: 0;
-$navbar-margin-bottom: 0;
-
-$well-bg: rgb(245, 245, 245);//#F5F5F5
-
-$pre-bg: inherit;
-$pre-color: inherit;
-$pre-border-color: inherit;
-
-$grid-float-breakpoint: 1100px;
-
-// extra vars that was added to bootstrap variables by Roxio
-$link-visited-color: $yii-blue;
-$font-size-codeblocks: $font-size-base;
-
-$blue-navbar: true;
-
-@if $blue-navbar {
-  $navbar-inverse-color:                      lighten($gray-light, 20%);
-  $navbar-inverse-bg:                         $eshill-blue;//darken($yii-blue, 15%);
-  // Inverted navbar links
-  $navbar-inverse-link-color:                 #fff;
-  // Inverted navbar toggle
-  $navbar-inverse-toggle-hover-bg:            $navbar-inverse-bg;
-  // $navbar-inverse-toggle-icon-bar-bg:         #fff;
-  $navbar-inverse-toggle-border-color:        darken($navbar-inverse-bg, 5%);
-}
 
 //== Typography
 //
@@ -476,7 +413,6 @@ $blue-navbar: true;
 // $navbar-inverse-brand-color:                $navbar-inverse-link-color;
 // $navbar-inverse-brand-hover-color:          #fff;
 // $navbar-inverse-brand-hover-bg:             transparent;
-// $navbar-inverse-brand-color:                $navbar-inverse-link-color;
 
 // Inverted navbar toggle
 // $navbar-inverse-toggle-hover-bg:            #333;
@@ -866,7 +802,7 @@ $blue-navbar: true;
 //** Text color of current page in the breadcrumb
 // $breadcrumb-active-color:       $gray-light;
 //** Textual separator for between breadcrumb elements
-// $breadcrumb-separator:          "/"
+// $breadcrumb-separator:          "/";
 
 
 //== Carousel
@@ -916,7 +852,7 @@ $blue-navbar: true;
 //##
 
 //** Horizontal offset for forms and lists.
-// $component-offset-horizontal: 180px
+// $component-offset-horizontal: 180px;
 //** Text muted color
 // $text-muted:                  $gray-light;
 //** Abbreviations and acronyms border color
