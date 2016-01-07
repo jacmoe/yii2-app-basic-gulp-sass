@@ -1,5 +1,5 @@
 {
-    "name": "jacmoe/yii2-app-basic",
+    "name": "jacmoe/yii2-app-basic-sass-gulp",
     "description": "Yii 2 Basic Project Template with Gulp and Sass support",
     "keywords": ["yii2", "framework", "basic", "project template", "sass", "gulp"],
     "type": "project",
