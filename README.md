@@ -1,4 +1,4 @@
-Yii 2 Basic Project Template
+Yii 2 Basic Gulp Sass Project Template
 ============================
 
 Yii 2 Basic Gulp Sass Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application that adds support for Gulp and Sass.
