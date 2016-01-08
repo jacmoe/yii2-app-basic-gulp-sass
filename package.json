@@ -1,7 +1,8 @@
 {
-  "name": "yii2-app-basic-sass-gulp",
+  "name": "yii2-app-basic-gulp-sass",
   "version": "1.0.0",
   "description": "Basic Yii2 application with Gulp and Sass support",
+  "license": "MIT",
   "main": "Gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
