@@ -1,7 +1,7 @@
 {
     "name": "jacmoe/yii2-app-basic-gulp-sass",
     "description": "Yii 2 Basic Project Template with Gulp and Sass support",
-    "keywords": ["yii2", "framework", "basic", "project template", "sass", "gulp"],
+    "keywords": ["yii2", "framework", "basic", "sass", "gulp", "project template"],
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
