@@ -35,6 +35,23 @@ The minimum requirement by this project template that your Web server supports P
 
 INSTALLATION
 ------------
+## Prerequisites
+Before you start, make sure you have installed [composer](https://getcomposer.org/) and [Node.js](http://nodejs.org/).
+If you are on Debian or Ubuntu you might also want to install the [libnotify-bin](https://packages.debian.org/jessie/libnotify-bin) package, which is used by Gulp to inform you about its status.
+
+### Gulp
+install gulp globally if you haven't done so before
+
+```
+npm install -g gulp
+```
+### Browsersync
+install browsersync globally if you haven't done so before
+
+```
+npm install -g browser-sync
+```
+
 ### Install via Composer
 
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
