@@ -46,7 +46,7 @@ If you are on Debian or Ubuntu you might also want to install the [libnotify-bin
 install gulp globally if you haven't done so before
 
 ```
-npm install -g gulp
+npm install -g gulp-cli
 ```
 ### Browsersync
 install browsersync globally if you haven't done so before
